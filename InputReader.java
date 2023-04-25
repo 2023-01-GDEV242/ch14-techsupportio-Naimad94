@@ -6,8 +6,8 @@ import java.util.Scanner;
  * The text typed by a user is then chopped into words, and a set of words 
  * is provided.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * Damian Nunez (JonD)
+ * February 24, 2023
  */
 public class InputReader
 {
@@ -25,8 +25,8 @@ public class InputReader
      * Read a line of text from standard input (the text terminal),
      * and return it as a set of words.
      *
-     * @return  A set of Strings, where each String is one of the 
-     *          words typed by the user
+     * Damian Nunez (JonD)
+     * February 24, 2023
      */
     public HashSet<String> getInput() 
     {
@@ -37,7 +37,8 @@ public class InputReader
 
         // add words from array into hashset 
         HashSet<String> words = new HashSet<>();
-        for(String word : wordArray) {
+        for(String word : wordArray) 
+        {
             words.add(word);
         }
         return words;
